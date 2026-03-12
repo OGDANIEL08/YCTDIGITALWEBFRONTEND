@@ -1,0 +1,199 @@
+.fa-charging-station {
+  background-color: rgba(0, 0, 255, 0.891);
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.fa-system {
+  font-size: 12px;
+}
+:root {
+  --brand-primary: #0f172a;
+  --brand-accent: #3b82f6;
+  --brand-success: #10b981;
+  --brand-warning: #f59e0b;
+  --brand-error: #ef4444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Plus Jakarta Sans", sans-serif ;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  border: 2px solid purple;
+}
+
+.about-box {
+  background-color: var(--brand-primary);
+  color: white;
+  width: 50%;
+  padding: 1rem 0 1rem 2.5rem;
+}
+
+.heading4 {
+  font-size: 19px;
+  margin-bottom: 6rem;
+}
+
+.empower {
+  font-size: 3rem;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.future {
+  color: blue;
+}
+
+.nextgen {
+  color: rgb(255, 255, 255, 0.5);
+  width: 65%;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 1.4rem;
+}
+
+.system {
+  width: 60%;
+  display: flex;
+  margin-bottom: 7.3rem;
+}
+
+.percent {
+  background-color: rgba(25, 35, 59, 0.743);
+  padding: 15px;
+  width: 8.5rem;
+  margin-right: 2rem;
+  border-radius: 0.6rem;
+}
+
+.grade {
+  background-color: rgba(25, 35, 59, 0.743);
+  padding: 15px;
+  width: 8.5rem;
+  border-radius: 0.6rem;
+}
+
+.systempbold {
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+.systemp  {
+  font-size: 11px;
+  color: rgb(255, 255, 255,0.3);
+}
+
+.signup-box {
+  width: 50%;
+  padding: 4rem 0 1rem 5rem;
+  background-color:  rgba(25, 35, 59, 0.063);
+}
+
+.getstarted {
+  font-size: 1.5rem;
+  margin-bottom: 11px;
+}
+
+.signupcreatep {
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.6);
+    width: 60%;
+}
+
+.signup-form {
+  width: 70%;
+  margin-top: 2.5rem;
+  padding: 0;
+}
+
+label {
+  font-size: 12px;
+  color: rgb(0, 0, 0,0.9);
+}
+
+.inputz {
+  padding: 0.5rem;
+  width: 80%;
+  border: none;
+  border: 0.5px solid rgba(25, 35, 59, 0.163);
+  border-radius: 7px;
+  margin-bottom: 10px;
+  outline: none;
+  padding-left: 40px;
+
+}
+
+
+.input-icon {
+  position: relative;
+  width: 100%;
+}
+
+.input-icon .fa-solid {
+  position: absolute;
+  padding: 10px;
+  min-width: 40px;
+  font-size: 15px;
+  color:rgba(25, 35, 59, 0.363) ;
+}
+
+.fa-eye {
+  color:rgba(25, 35, 59, 0.363) ;
+  position: absolute;
+  right: 5.4rem;
+  padding: 10px;
+  
+  font-size: 15px;
+  
+}
+
+.inputz::placeholder {
+  position: relative;
+  color: rgba(0, 0, 0, 0.37);
+  left: 20px;
+  width: 100%;
+
+}
+.check {
+  margin-bottom: 30px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.create {
+  background-color: black;
+  color: rgb(255, 255, 255, 0.9);
+  font-size: 11px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.termsz {
+    
+    font-size: 12px;
+    color: rgb(0, 0, 0,0.6);
+}
+.already {
+    font-size: 11px;
+    color: rgb(0, 0, 0,0.6);
+    width: 60%;
+    text-align: center;
+}
+
+.links {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 255,0.8);
+}
