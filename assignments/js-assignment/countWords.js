@@ -1,3 +1,6 @@
-let word = "Daniel is a boy"
-let wordCount = word.trim().split(/\s+/).length
-console.log(wordCount) // 4
+function wordCount(word) {
+  const wordNum =  word.trim().split(/\s+/).length
+  return wordNum
+}
+
+console.log(wordCount("Daniel is a boy"))
