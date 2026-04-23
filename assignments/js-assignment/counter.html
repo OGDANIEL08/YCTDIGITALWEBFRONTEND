@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter</title>
+  <style>
+    body {
+      text-align: center;
+    }
+    span {
+      font-size: 5rem;
+    }
+    button {
+      border: none;
+      padding: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.1s ease;
+      background: green;
+      color: white;
+    }
+    button:active {
+      transform: scale(0.98);
+    }
+    #decrease-btn {
+      background-color: red;
+    }
+
+  </style>
+</head>
+<body>
+  <span id="count">0</span>
+  <br>
+  <button id="increase-btn">Increase</button>
+  <button id="decrease-btn">Decrease</button>
+
+  <script src="counterDom.js"></script>
+</body>
+</html>

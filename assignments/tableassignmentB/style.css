@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:  sans-serif;
+  padding: 20px;
+  background-color: rgba(236, 240, 244, 0.527);
+}
+
+.table-container {
+  border: 1px solid rgba(0, 0, 0, 0.087);
+  box-shadow:0 2px 1px rgba(0,0,0,0.1);
+  width: 80%;
+  overflow-x: auto;
+  margin: 0 auto;
+  background-color: white;
+}
+
+
+table {
+  width: 98%;
+  min-width: 600px;
+  border-collapse: collapse;
+  border-radius: 5px;
+  padding:  0px 30px;
+  margin: 0 auto;
+  margin-bottom: 30px; 
+}
+
+.tablehead {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+th {
+  border-bottom: 0.2px solid rgba(128, 128, 128, 0.656);
+  text-align: left;
+  opacity: 0.3;
+  padding: 0px 5px;
+}
+
+td {
+  padding: 10px ;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+tr:nth-child(even){
+  background-color: rgba(0, 0, 0, 0.015);
+}
+
+.awtsheets {
+  color: rgb(181, 0, 181);
+  font-weight: bold
+}
+
+.awtment {
+  color: rgb(37, 158, 205);
+  font-weight: bold;
+}
+
+.queried {
+  color: red;
+  font-weight: bold;
+}
+
+.paid {
+  color: green;
+  font-weight: bold;
+}
+
+.void {
+  font-weight: bold;
+}
+
+button {
+  background-color: rgba(144, 46, 236, 0.842);
+  border: none;
+  color: white;
+  padding: 7px 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+@media (max-width: 600px) { 
+
+    table {
+      font-size: 15px;
+    }
+    
+    td, th {
+      padding: 2px;
+    }
+}
