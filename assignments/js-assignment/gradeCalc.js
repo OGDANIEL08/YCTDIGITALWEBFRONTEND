@@ -18,3 +18,5 @@ function getGrade(score) {
     return 'F'
   }
 }
+
+console.log(getGrade(50))

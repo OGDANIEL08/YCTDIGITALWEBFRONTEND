@@ -5,7 +5,7 @@ Hint: You might need a third "temporary" variable to hold a value while you move
 let a = 5
 let b = 10
 
-let swap;
+//let swap;
 
 swap = a;
 a = b;

@@ -7,13 +7,18 @@ Key Methods: document.getElementById(), addEventListener(), and innerText
 const countElement = document.getElementById('count');
 const increaseBtn = document.getElementById('increase-btn');
 const decreaseBtn = document.getElementById('decrease-btn');
-
+const resetBtn = document.getElementById('reset-btn');
 let count = 0
 
 increaseBtn.addEventListener('click', () => {
   count++
   countElement.textContent = count
 });
+
+resetBtn.onclick =  function () {
+  count = 0
+  countElement.textContent = count
+}
 
 decreaseBtn.addEventListener('click', () => {
   count--

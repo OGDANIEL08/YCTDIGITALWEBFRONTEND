@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  overflow-x: hidden; /* prevents horizontal overflow */
+}
+body {
+  font-family: sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  margin: 0;
+  background: linear-gradient(to bottom, #3570be, #070f36);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+header {
+  background: rgb(25, 72, 135);
+  color: white;
+  padding-bottom: 8px;
+}
+header h2 {
+  margin-left: 20px;
+}
+
+.weatherForm {
+  margin: 20px;
+ 
+  @media (max-width: 375px) {
+    line-height: 50px;
+    text-align: center;
+  }
+}
+.cityInput {
+  width: 200px;
+  background: #265ba0;
+  border: 2px solid #066dc222;
+  border-radius:5px;
+  outline: none;
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.cityInput::placeholder {
+  color: rgba(255, 255, 255, 0.813);
+}
+button[type="submit"] {
+  padding: 13px;
+  font-weight: bold;
+  margin-left: 5px;
+  background: #265ba084;
+  color: white;
+  border: 2px solid #265ba0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: #070f367f;
+}
+
+.card {
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  border: 2px solid  #2c99ed56;
+  box-shadow: 2px 2px 5px hsla(200, 93%, 33%, 0.529);
+  border-radius: 12px;
+}
+.cityDisplay {
+  font-size: 2rem;
+  margin-bottom: 10px;
+
+}
+
+.tempDisplay {
+  font-size: 3rem;
+  font-weight: bold;
+  
+}
+
+.weatherEmoji {
+  font-size: 7rem;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 3px solid rgba(135, 207, 235, 0.235);
+  border-radius: 10px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.descDisplay{
+  font-size: 2rem;
+  margin-right: 50px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.humidityDisplay {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0;
+}
+.errorDisplay {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.729);
+}
